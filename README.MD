@@ -6,7 +6,7 @@ The base of the code KADSwiftDraw.swift is heavily based on the Objective-C Tuto
 Purpose of the software is demonstrating a simple drawing class in Swift, which can be used as a solid starting point for developers looking for simple drawing functionalities. I added some controls for line width and color, and an eraser functionality as well. (Who draws without an eraser anyway?)
 
 #### Screenshot
-![Horrible screenshot](http://imgur.com/b16FJGp "Imgur")
+![Horrible screenshot](http://imgur.com/b16FJGp)
 
 ## Roadmap
 * Implement use of background-thread for better performance when using heavily
@@ -17,9 +17,6 @@ Purpose of the software is demonstrating a simple drawing class in Swift, which 
 
 ## Version 
 * Version 0.1.0
-
-## How-to use this code
-* See [INSTRUCTIONS](https://github.com/username/sw-name/blob/master/INSTRUCTIONS.md) file
 
 ## Contact
 * Developer: Kyle Adams 
