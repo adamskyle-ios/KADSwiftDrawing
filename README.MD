@@ -21,4 +21,4 @@ Purpose of the software is demonstrating a simple drawing class in Swift, which 
 ## Contact
 * Developer: Kyle Adams 
 * e-mail: kpe.adams@gmail.com
-* Twitter: [@twitterhandle](https://twitter.com/_kyleadams "twitterhandle on twitter")
+* Twitter: [@_kyleadams](https://twitter.com/_kyleadams "twitterhandle on twitter")
