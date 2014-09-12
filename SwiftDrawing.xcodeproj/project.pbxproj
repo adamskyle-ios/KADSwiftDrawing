@@ -12,6 +12,8 @@
 		5383E8CE19BEFF2300AA25CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5383E8CC19BEFF2300AA25CC /* Main.storyboard */; };
 		5383E8D019BEFF2300AA25CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5383E8CF19BEFF2300AA25CC /* Images.xcassets */; };
 		5383E8DC19BEFF2300AA25CC /* SwiftDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E8DB19BEFF2300AA25CC /* SwiftDrawingTests.swift */; };
+		5383E8E619BEFF3F00AA25CC /* KADSwiftDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383E8E519BEFF3F00AA25CC /* KADSwiftDraw.swift */; };
+		53F4D7EF19C2EF7700935AD4 /* ColorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4D7EE19C2EF7700935AD4 /* ColorSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		5383E8D519BEFF2300AA25CC /* SwiftDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383E8DA19BEFF2300AA25CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5383E8DB19BEFF2300AA25CC /* SwiftDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDrawingTests.swift; sourceTree = "<group>"; };
+		5383E8E519BEFF3F00AA25CC /* KADSwiftDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KADSwiftDraw.swift; sourceTree = "<group>"; };
+		53F4D7EE19C2EF7700935AD4 /* ColorSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		5383E8C519BEFF2300AA25CC /* SwiftDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				53F4D7EE19C2EF7700935AD4 /* ColorSelectionViewController.swift */,
+				5383E8E519BEFF3F00AA25CC /* KADSwiftDraw.swift */,
 				5383E8C819BEFF2300AA25CC /* AppDelegate.swift */,
 				5383E8CA19BEFF2300AA25CC /* ViewController.swift */,
 				5383E8CC19BEFF2300AA25CC /* Main.storyboard */,
@@ -209,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5383E8CB19BEFF2300AA25CC /* ViewController.swift in Sources */,
+				53F4D7EF19C2EF7700935AD4 /* ColorSelectionViewController.swift in Sources */,
+				5383E8E619BEFF3F00AA25CC /* KADSwiftDraw.swift in Sources */,
 				5383E8C919BEFF2300AA25CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +334,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -337,8 +347,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -395,6 +407,7 @@
 				5383E8E119BEFF2300AA25CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5383E8E219BEFF2300AA25CC /* Build configuration list for PBXNativeTarget "SwiftDrawingTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +416,7 @@
 				5383E8E419BEFF2300AA25CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
